@@ -5,3 +5,13 @@ import numpy as np
 x = np.linspace(0, 20, 100)
 plt.plot(x, np.sin(x))
 plt.show()
+
+s = {'x1': [1, 2], 'x2': [3, 4]}
+
+#%%
+import pandas as pd 
+df = pd.DataFrame(s)
+df.info()
+df.values
+
+
