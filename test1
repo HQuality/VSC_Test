@@ -14,4 +14,7 @@ df = pd.DataFrame(s)
 df.info()
 df.values
 
+df.head(2)
 
+
+#%%
